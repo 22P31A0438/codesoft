@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    text-align: center;
+}
+.header .contact-info {
+    text-align: right;
+    margin-right: 20px;
+}
+.header .contact-info a {
+    margin: 0 5px;
+    color: #333;
+    text-decoration: none;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ff4081;
+    padding: 10px 20px;
+    align-items: center;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+}
+.hero {
+    background: url('https://t3.ftcdn.net/jpg/05/61/09/66/360_F_561096688_LbzKSJT4C5KFCQYp6rFw7U4Tz8eBTXw1.jpg') no-repeat center center/cover;
+    background-size:100% 100%;
+    height: 800px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+.hero p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+.hero .buttons a {
+    background-color: #ff4081;
+
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    text-decoration: none;
+}
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    background:linear-gradient(to right,orange,pink,purple);
+}
+.features .feature {
+    text-align: center;
+    /* background-color:rgb(229, 224, 215); */
+    width: 30%;
+}
+.about {
+    padding: 50px 20px;
+    text-align: center;
+    border:1px solid black;
+    display:flex;
+}
+.about1{
+    display:flex;
+    flex-direction: column;
+    justify-content:left;
+}
+.about img {
+    width: 50%;
+    height: 100%;
+}
+.services {
+    background-color: #f0f0f0;
+    padding: 50px 20px;
+    text-align: center;
+}
+.services .service {
+    display: inline-block;
+    width: 30%;
+    margin: 20px;
+}
+.services .service img {
+    max-width: 100%;
+    height: auto;
+}
